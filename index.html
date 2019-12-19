@@ -8,18 +8,19 @@
   <title>Mean, Median, & Mode</title>
 </head>
 <body>
-  <div class="main"> 
-
-   
+  <div class="main">
     <div class="container">
       <h1>Mean, Median, & Mode</h1>
       <div class="total">
+        <ul id='list'>
+        </ul>
       </div>
-    
-      <ul id='list'>
-      </ul>
-      <input id='numberInput' type="number" placeholder="Enter number">
-      <button id='add'>Add To List</button>
+  
+      <div class='enter'>
+        <input id='numberInput' type="number" placeholder="Enter number">
+        <button id='add'>Add</button> 
+      </div>
+
   </div>
   
   <div class="output">
@@ -27,6 +28,7 @@
     <div id='mean' class="mean">Mean</div>
     <div id='mode'class="mean">Mode</div>
     <div id='median'class="mean">Median</div>
+    <button id='reset' type="reset">Reset</button>
   </div>
 </div>
  
